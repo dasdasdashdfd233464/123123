@@ -13,7 +13,7 @@ input.onButtonPressed(Button.B, function () {
 let A = 0
 A = 0
 basic.forever(function () {
-    if (A >= 9) {
+    if (A >= 10) {
         A = 0
         basic.showNumber(A)
     }
